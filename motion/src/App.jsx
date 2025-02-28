@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import SliderSelect from "./components/SliderSelect";
 import Result from "./components/Result";
