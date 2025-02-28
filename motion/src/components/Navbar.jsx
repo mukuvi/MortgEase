@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <AppBar position="static">
-        <Container maxWidth="sm">
+        <Container maxWidth="xl">
           <Toolbar>
             <Typography variant="h4" component="p">
               Motion
