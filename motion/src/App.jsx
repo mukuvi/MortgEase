@@ -8,7 +8,7 @@ import { Container, Grid } from "@mui/material";
 
 function App() {
   const [data, setData] = useState({
-    homeValue: 300,
+    homeValue: 3000,
     downPayment: 3000,
     loanAmount: 3000,
     loanAmount: 100,
@@ -20,7 +20,8 @@ function App() {
       <Container maxWidth="xl" sx={{ mt: 4 }}>
         <Grid container spacing={5}>
           <Grid item xs={12} md={6}>
-            <SliderSelect /> <TenureSelect />
+            <SliderSelect data={data} setData={setData} />
+            <TenureSelect />
           </Grid>
           <Grid item xs={12} md={6}>
             <Result />
