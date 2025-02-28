@@ -13,7 +13,7 @@ const SliderSelect = ({ data, setData }) => {
         amount={data.homeValue}
         defaultValue={data.homeValue}
         value={data.homeValue}
-        step={10}
+        step={100}
         onChange={(e, value) => setData({ homeValue: value })}
       />
       <SliderComponent
