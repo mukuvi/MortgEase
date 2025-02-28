@@ -9,9 +9,10 @@ import { Container, Grid } from "@mui/material";
 function App() {
   const [data, setData] = useState({
     homeValue: 3000,
-    downPayment: 3000,
-    loanAmount: 3000,
+    downPayment: 3000 * 0.2,
+    loanAmount: 3000 * 0.8,
     loanTerm: 100,
+    interestRate: 5,
   });
   return (
     <div className="App">
