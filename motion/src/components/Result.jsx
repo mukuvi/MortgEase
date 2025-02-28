@@ -27,7 +27,7 @@ const Result = ({ data }) => {
   };
 
   return (
-    <Stack>
+    <Stack gap={3}>
       <Typography textAlign="center" variant="h5">
         Monthly Payment : $ {monthlyPayment.toFixed(2)}
       </Typography>
