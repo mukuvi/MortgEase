@@ -4,9 +4,36 @@ import SliderComponent from "./common/SliderComponent";
 const SliderSelect = () => {
   return (
     <>
-      <SliderComponent defaultValue={80} min={50} max={100} />
-      <SliderComponent defaultValue={130} min={100} max={200} />
-      <SliderComponent defaultValue={10} min={5} max={30} />
+      <SliderComponent
+        label="Home Value"
+        unit="$"
+        amount={3000}
+        defaultValue={80}
+        min={50}
+        max={100}
+        step={10}
+        onChange={(e, value) => console.log(value)}
+      />
+      <SliderComponent
+        label="Down Payment"
+        unit="$"
+        amount={1000}
+        defaultValue={80}
+        min={5}
+        max={100}
+        step={10}
+        onChange={(e, value) => console.log(value)}
+      />
+      <SliderComponent
+        label="Loan Value"
+        unit="$"
+        amount={2000}
+        defaultValue={80}
+        min={50}
+        max={100}
+        step={10}
+        onChange={(e, value) => console.log(value)}
+      />
     </>
   );
 };
