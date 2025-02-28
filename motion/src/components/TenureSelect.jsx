@@ -5,11 +5,12 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 
-const TenureSelect = () => {
-  const [age, setAge] = React.useState("");
-
+const TenureSelect = ({ data, setData }) => {
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setData({
+      ...data,
+      loanTerm: event.target.value,
+    });
   };
   return (
     <>
@@ -18,7 +19,7 @@ const TenureSelect = () => {
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value={age}
+          value={data.loanTerm}
           label="Tenure"
           onChange={handleChange}
         >
