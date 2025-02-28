@@ -12,7 +12,7 @@ const SliderSelect = () => {
         min={50}
         max={100}
         step={10}
-        onChange={(e, value) => console.log(value)}
+        onChange={(e, value) => {}}
       />
       <SliderComponent
         label="Down Payment"
@@ -22,7 +22,7 @@ const SliderSelect = () => {
         min={5}
         max={100}
         step={10}
-        onChange={(e, value) => console.log(value)}
+        onChange={(e, value) => {}}
       />
       <SliderComponent
         label="Loan Value"
@@ -32,7 +32,7 @@ const SliderSelect = () => {
         min={50}
         max={100}
         step={10}
-        onChange={(e, value) => console.log(value)}
+        onChange={(e, value) => {}}
       />
     </>
   );
