@@ -11,7 +11,7 @@ function App() {
     homeValue: 3000,
     downPayment: 3000,
     loanAmount: 3000,
-    loanAmount: 100,
+    loanTerm: 100,
   });
   return (
     <div className="App">
