@@ -12,10 +12,10 @@ function App() {
       <Navbar />
       <Container maxWidth="xl" sx={{ mt: 4 }}>
         <Grid container spacing={5}>
-          <Grid item md={6}>
+          <Grid item xs={12} md={6}>
             <SliderSelect /> <TenureSelect />
           </Grid>
-          <Grid item>
+          <Grid item xs={12} md={6}>
             <Result />
           </Grid>
         </Grid>
