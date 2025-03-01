@@ -29,7 +29,7 @@ const SliderSelect = ({ data, setData }) => {
         amount={data.downPayment}
         defaultValue={data.downPayment}
         value={data.downPayment}
-        min={0}
+        min={1000}
         max={10000}
         step={100}
         onChange={(e, value) =>
@@ -46,7 +46,7 @@ const SliderSelect = ({ data, setData }) => {
         amount={data.loanAmount}
         defaultValue={data.loanAmount}
         value={data.loanAmount}
-        min={0}
+        min={1000}
         max={10000}
         step={100}
         onChange={(e, value) =>
