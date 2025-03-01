@@ -11,7 +11,7 @@ const Navbar = () => {
         <Container maxWidth="xl">
           <Toolbar>
             <Typography variant="h4" component="p">
-              Motion
+              Mortgage Calculator
             </Typography>
           </Toolbar>
         </Container>
